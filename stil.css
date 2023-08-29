@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.headerTop {
+    background-color: rgb(255, 255, 255);
+    font-size: 1.6em;
+    padding: 15px 30px;
+}
+.headerTop .container-fluid .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.menu ul li {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #747474;
+    border-radius: 5px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 500;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.tanitim {
+    margin: 60px 0;
+    font-size: 1.4em;
+}
+.tanitim .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.referanslar {
+    margin-bottom: 60px;
+    border-top: 1px solid black;
+    padding-top: 30px;
+}
+.referanslar h1 {
+    font-size: 2.4em;
+    margin-bottom: 30px;
+}
+.footer {
+    background-color: #424242;
+    padding: 30px 0;
+    font-size: 1.4em
+}
+.power {
+    margin: 0;
+    text-align: center;
+    color: #f4f4f4;
+}
+.power:first-child {
+    margin-top: 30px;
+}
+.footerTitle {
+    color: #f4f4f4;
+    font-weight: 500;
+    font-size: 1.4em;
+    position: relative;
+    display: inline-block;
+}
+.footerTitle::before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 40%;
+    border-bottom: 3px solid #828282;
+}
+.katalog {
+    margin: 30px 0 0 0;
+    padding: 10px 20px;
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.footer ul li a{
+    color: #b5b5b5;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+.footer ul li a:hover {
+    color: #ffff;
+    text-decoration: none;
+}
+.footer ul li {
+    margin: 10px 0;
+}
+
+.footer ul li:first-child {
+    margin-top: 30px;
+}
