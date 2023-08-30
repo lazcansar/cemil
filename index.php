@@ -29,8 +29,8 @@ function kutu($metin, $color) {
             <div class="col-md-9 menu">
                 <ul>
                     <li><a href="">Anasayfa</a></li>
-                    <li><a href="">Hakkımızda</a></li>
-                    <li><a href="">İletişim</a></li>
+                    <li><a href="#hakkimizda">Hakkımızda</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
                     <li style="background-color:#25D366;"><a href=""><i class="bi bi-whatsapp"></i> Whatsapp</a></li>
                 </ul>
             </div>
@@ -60,7 +60,7 @@ function kutu($metin, $color) {
 ?>
 
 
-    <section class="tanitim">
+    <section class="tanitim" id="hakkimizda">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
@@ -79,44 +79,21 @@ function kutu($metin, $color) {
         <div class="container">
             <h1>Referans Çalışmalarımız</h1>
             <div class="row">
-                <div class="col-md-3 mb-5">
-                <?php kutu("Resim 1", "orange"); ?>
-                </div>
-
-                <div class="col-md-3 mb-5">
-                <?php kutu("Resim 2", "orange"); ?>
-                </div>
-
-                <div class="col-md-3 mb-5">
-                <?php kutu("Resim 3", "orange"); ?>
-                </div>
-
-                <div class="col-md-3 mb-5">
-                <?php kutu("Resim 4", "orange"); ?>
-                </div>
-
-                <div class="col-md-3">
-                <?php kutu("Resim 1", "orange"); ?>
-                </div>
-
-                <div class="col-md-3">
-                <?php kutu("Resim 2", "orange"); ?>
-                </div>
-
-                <div class="col-md-3">
-                <?php kutu("Resim 3", "orange"); ?>
-                </div>
-
-                <div class="col-md-3">
-                <?php kutu("Resim 4", "orange"); ?>
-                </div>
+              <?php 
+              $resimler = glob("./images/*{jpeg}", GLOB_BRACE );
+              foreach($resimler as $resim) {
+                echo '<div class="col-md-3 mb-5">
+                <img src='.$resim.' loading="lazy" class="img-fluid">
+                </div>';
+              }
+              ?>
             </div>
         </div>
     </section>
 
 
 
-    <section class="footer">
+    <section class="footer" id="iletisim">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
