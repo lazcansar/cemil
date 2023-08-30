@@ -92,6 +92,9 @@ a {
     line-height: 2em;
     font-size: 1.1em;
 }
+.tanitim p:last-child {
+    margin: 0;
+}
 .referanslar {
     margin-bottom: 60px;
     border-top: 1px solid black;

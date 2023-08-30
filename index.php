@@ -130,8 +130,8 @@ function kutu($metin, $color) {
 
             </div>
             <div class="border-top border-1 mt-5">
-            <p class="power">Copyright &copy 1990-2023 refleksmakina.com <br> Web sitemizde yer alan görsellerin izin kopyalanması ve kullanılması yasaktır.</p>
-            <p class="power mt-2 fw-bold">Design & Code - A&F Yazılım ve E-Ticaret Hizmetleri</p>
+            <p class="power">Copyright &copy 1990-2023 refleksmakina.com <br> Web sitemizde yer alan görsellerin izinsiz kopyalanması ve kullanılması yasaktır.</p>
+            <p class="power mt-2 fw-bold">- A&F Yazılım ve E-Ticaret Hizmetleri -</p>
             </div>
         </div>
     </section>
