@@ -18,6 +18,9 @@ li {
     margin: 0;
     padding: 0;
 }
+a {
+    text-decoration: none;
+}
 .headerTop {
     background-color: rgb(255, 255, 255);
     font-size: 1.6em;
@@ -43,6 +46,13 @@ li {
     text-decoration: none;
     color: #ffff;
     font-weight: 500;
+    transition: .3s all;
+}
+.menu ul li a:hover {
+    color: orange;
+}
+.menu ul li:last-child a:hover {
+    color: #ffff;
 }
 .swiper {
     width: 100%;
@@ -70,6 +80,10 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.tanitim p {
+    color: #424242;
+    font-weight: 400;
 }
 .referanslar {
     margin-bottom: 60px;
@@ -118,6 +132,7 @@ li {
     border-radius: 5px;
 }
 .footer ul li a{
+    font-size: 1.1em;
     color: #b5b5b5;
     text-decoration: none;
     transition: 0.3s all;
@@ -132,4 +147,24 @@ li {
 
 .footer ul li:first-child {
     margin-top: 30px;
+}
+.wptel {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 10px 30px;
+    background-color: #25D366;
+    border-radius: 10px 0 10px 0;
+    font-size: 1.4em;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    font-weight: 500;
+}
+.wptel a {
+    color: #ffff;
+    display: block;
+    margin: 5px 0 0 0;
+    transition: 0.3s all;
+}
+.wptel a:hover {
+    color: #424242;
 }

@@ -15,6 +15,11 @@ function kutu($metin, $color) {
     <link rel="stylesheet" type="text/css" href="stil.css">
   </head>
   <body>
+    <div class="wptel">
+      <a href=""><i class="bi bi-whatsapp"></i> WhatsApp</a>
+      <a href=""><i class="bi bi-phone-fill"></i> 0506 770 18 61</a>
+    </div>
+
     <section class="headerTop">
     <div class="container-fluid ust-bar">
         <div class="row">
