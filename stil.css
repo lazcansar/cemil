@@ -81,9 +81,16 @@ a {
     justify-content: center;
     align-items: center;
 }
+.tanitim h1 {
+    font-size: 2em;
+    color: #424242;
+}
 .tanitim p {
     color: #424242;
     font-weight: 400;
+    text-align: justify;
+    line-height: 2em;
+    font-size: 1.1em;
 }
 .referanslar {
     margin-bottom: 60px;

@@ -8,7 +8,7 @@ function kutu($metin, $color) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <title>Refleks Makina</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -17,7 +17,7 @@ function kutu($metin, $color) {
   <body>
     <div class="wptel">
       <a href=""><i class="bi bi-whatsapp"></i> WhatsApp</a>
-      <a href=""><i class="bi bi-phone-fill"></i> 0506 770 18 61</a>
+      <a href=""><i class="bi bi-phone-fill"></i> 0536 815 53 48</a>
     </div>
 
     <section class="headerTop">
@@ -68,8 +68,10 @@ function kutu($metin, $color) {
                 </div>
                 <div class="col-md-5">
                     <h1>Refleks Makina</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Refleks Makine San. ve Tic. Ltd. olarak makina imalatında 20 yıllık tecrübemizle dünya standartlarında imalat yapmaktayız.</p>
+                    <p>İmalatımız reklamcılara, modelcilere, mobilyacılara, marangozlara, membran kapak ve kapı imalatçılarına, çelik kapı imalatçılarına, lazer kesimcilere, söve imalatçılarına ve CNC teknolojisini kullanan bütün endüstriyel üretim alanlarına yöneliktir.</p>
+                    <p>Her çeşit ve ölçüde imalatımız, tesisinize ve imalatınıza özel tasarım ve AR-GE çalışmamız vardır.</p>
+                    <p>Makinalarımıza 1 yıl koşulsuz yedek parça, 1 yıl servis garantisi veriyoruz. </p>
                 </div>
             </div>
         </div>
@@ -118,9 +120,9 @@ function kutu($metin, $color) {
                 <div class="col-md-4">
                     <div class="footerTitle">İletişim</div>
                     <ul>
-                      <li><a href=""><i class="bi bi-phone-fill"></i> 0506 770 1861</a></li>
-                      <li><a href=""><i class="bi bi-telephone-outbound-fill"></i> 0212 123 18 61</a></li>
-                      <li><a href=""><i class="bi bi-geo-alt-fill"></i> Gaziosmanapaşa İstanbul</a></li>
+                      <li><a href=""><i class="bi bi-phone-fill"></i> 0536 815 53 48</a></li>
+                      <li><a href=""><i class="bi bi-telephone-outbound-fill"></i> 0212 618 67 83</a></li>
+                      <li><a href=""><i class="bi bi-geo-alt-fill"></i> Fevzi Çakmak Mah. 774 Sk. No:44 Küçükköy Gaziosmanpaşa/İSTANBUL</a></li>
                       <li><a href=""><i class="bi bi-envelope-fill"></i> mail@refleksmakina.com</a></li>
                     </ul>
                 </div>
